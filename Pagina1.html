@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escoge Para Quien Regalar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            color: #333;
+            background: url('https://i.pinimg.com/originals/86/6f/30/866f30792413dcb70ce06c91c1ad3f4e.gif') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-weight: 600;
+        }
+
+        .catalogos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .catalogo-link {
+            text-align: center;
+            margin: 20px;
+            max-width: 300px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .catalogo-link:hover {
+            transform: scale(1.05);
+        }
+
+        .catalogo-link img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .catalogo-link h2 {
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            font-size: 18px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escoge Para Quien Regalar</h1>
+    </header>
+
+    <main>
+        <div class="catalogos">
+            <a href="Pagina2.html" class="catalogo-link">
+                <img src="https://i.pinimg.com/736x/f1/f7/34/f1f73410ce638635a413937ff5ccb330.jpg" alt="Catálogo 1">
+                <h2>Regalos Para Chicas</h2>
+            </a>
+            <a href="Pagina3.html" class="catalogo-link">
+                <img src="https://i.pinimg.com/736x/17/4b/93/174b933d543bc06759f59c3261f3e7ab.jpg" alt="Catálogo 2">
+                <h2>Regalos Para Chicos</h2>
+            </a>
+            
+        </div>
+    </main>
+
+    <footer>
+        <p>¿Tienes dudas o necesitas ayuda? <a href="https://www.instagram.com/latidosamorosos?utm_source=qr&igsh=M2V6amo3MTNyazFj" target="_blank">Contáctanos aquí</a></p>
+    </footer>
+</body>
+</html>
